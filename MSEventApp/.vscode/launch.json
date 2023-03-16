@@ -1,5 +1,18 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Orisline sandbox",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Sandbox",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "16911d21-97ee-4ae0-8ed7-07e0de332ef7",
+            "schemaUpdateMode": "ForceSync"
+        }
     ]
 }
